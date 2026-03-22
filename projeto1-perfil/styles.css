@@ -12,3 +12,6 @@ div.galeria img {
     width: 220px;
     height: 220px;
 }
+div.galeria {
+    text-align: center;
+}
