@@ -1,3 +1,10 @@
+main {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    border: 1px #84817a;
+    gap: 1rem;
+    padding: 1rem;
+}
 body {
     background-color: #aaa69d
 }
