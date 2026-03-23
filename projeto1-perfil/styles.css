@@ -1,24 +1,46 @@
+body {
+    background-color: #aaa69d
+    }
 main {
     display: grid;
     grid-template-columns: 350px 1fr;
-    border: 1px #84817a;
     gap: 1rem;
     padding: 1rem;
+    text-align: center;
 }
-body {
-    background-color: #aaa69d
+header {
+    background-color: #c2beb4;
+    border: 5px dashed #84817a
 }
-img {
-    border: 4px solid #84817a;
+header h1 {
+    text-align: center;
+}
+aside {
+    border: 5px dashed #84817a;
+    height: 554px;
+    background-color: #c2beb4
+}
+div.thumb {
+    text-align: center
 }
 div.thumb img {
     width: 300px;
-    height: 300px
+    height: 300px;
+    border-radius: 70px;
+}
+div.informações {
+    background-color: #c2beb4;
+    border: 5px dashed #84817a
+}
+img {
+    border: 4px solid #84817a;
 }
 div.galeria img {
     width: 220px;
     height: 220px;
 }
 div.galeria {
-    text-align: center;
+    border: 5px dashed #84817a;
+    height: 228px;
+    background-color: #c2beb4
 }
