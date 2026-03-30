@@ -12,7 +12,7 @@ header {
     background-color: #c2beb4;
     border: 5px dashed #84817a
 }
-header h1 {
+h1 {
     text-align: center;
 }
 aside {
@@ -45,6 +45,10 @@ div.galeria img {
 }
 div.galeria {
     border: 5px dashed #84817a;
-    height: 228px;
     background-color: #c2beb4
+}
+footer {
+    border: 5px dashed #84817a;
+    background-color: #c2beb4;
+    text-align: center
 }
